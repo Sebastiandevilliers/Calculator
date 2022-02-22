@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.box{
+    height: 500px;
+}
+
+
+.box,p{
+    justify-content: left;
+}
+
+.columns{
+
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.display{
+    
+    background-color: #E1F4FD ;
+    padding-top: 30px;
+    
+}
+
+#keypad{
+    padding-top: 25px;
+    margin: 5px;
+    align-items: center;
+    
+}
+
+.column2{
+    background-color: aqua;
+    
+}
+
+.block{
+    margin-bottom: 0.3rem;
+    padding-bottom: 0%;
+
+}
+
