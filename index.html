@@ -1,88 +1,45 @@
 <!DOCTYPE html>
-
-    <html>
+<html lang="en">
 
 <head>
-   
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300&family=Poppins:wght@200&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <meta name="author" content="Frank de Villiers">
+    <meta name="description" content="How to build a website">
     <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <div class="columns">
-  
-  <div class="column is-half is-offset-one-quarter">2</div>
-  <div class="block">
-      <div class="box" style="width: 300px" >
-    <p>Calculator</p>
-      <p class="display" style="width: 240px">0.00</p>
-    
-      <div class="block" id="keypad">
-        <div class="block" style="margin-bottom: 0.5rem;">
-            <div class="button" id="7">7</div>
-            <div class="button" id="8">8</div>
-            <div class="button" id="9">9</div>
-            <div class="button" id="/">/</div>
-            <div class="button" id="DEL">D</div>
-          </div>
-    <div class="block" style="margin-bottom: 0.5rem;">
-      <div class="button" id="4">4</div>
-      <div class="button" id="5">5</div>
-      <div class="button" id="6">6</div>
-      <div class="button" id="X">X</div>
-      <div class="button" id="(">(</div>
+    <div class="calculator-grid">
+        <div class="output">
+            <div class="previous-operand">
+                <div class="current-operand">
+
+                </div>
+            </div>
+        </div>
+        <button class="span-two" data-operation>AC</button>
+        <button data-delete>DEL</button>
+        <button data-operation>÷</button>
+        <button data-number>1</button>
+        <button data-number>2</button>
+        <button data-number>3</button>
+        <button data-operation>*</button>
+        <button data-number>4</button>
+        <button data-number>5</button>
+        <button data-number>6</button>
+        <button data-operation>+</button>
+        <button data-number>7</button>
+        <button data-number>8</button>
+        <button data-number>9</button>
+        <button data-operation>-</button>
+        <button data-operation>.</button>
+        <button data-number>0</button>
+        <button class="span-two" data-equals>=</button>
     </div>
-
-    <div class="block" style="margin-bottom: 0.5rem;">
-        <div class="button" id="1">1</div>
-        <div class="button" id="2">2</div>
-        <div class="button" id="3">3</div>
-        <div class="button" id="-" style="padding-left: 15px;">-</div>
-        <div class="button" id=")"> )</div>
-      </div>
-
-      <div class="block" style="margin-bottom: 0.5rem;">
-        <div class="button" id="0">0</div>
-        <div class="button" id="+-">+-</div>
-        <div class="button" id=".">.</div>
-        <div class="button" id="+">+</div>
-        <div class="button" id="=">=</div>
-      </div>
-
-  
-      
-      
-  
-    
-    
-   
-
-         
-     
-    
-
-
-</div>
-</div>
-</div>
-</div>
-
-      
-   
-
-    
-    
-        
-            
-
- 
-    
-    
 </body>
 </html>
